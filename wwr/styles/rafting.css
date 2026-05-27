@@ -1,5 +1,4 @@
 :root {
-    --primary-color: forest green;
     --secondary-color: light golden yellow;
     --heading-font: "Times New Romans", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -26,7 +25,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: #fff;
     text-align: center;
     padding: 16px;
@@ -45,8 +44,11 @@ article {
     position: relative;
 }
 
-.social media a {
+.socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia icon {
     width: 24px;
     height: 24;
 }
