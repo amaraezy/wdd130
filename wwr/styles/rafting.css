@@ -83,8 +83,7 @@ h2 {
 }
 
 .employee h2 {
-    color: #1a3c34;
-    font-size: 2rem;
+    color: #333 font-size: 2rem;
     margin-bottom: 2rem;
     font-weight: bold;
 }
@@ -104,11 +103,10 @@ h2 {
 
 .employee-flex img {
     width: 200px;
-    /* Adjust this value to your preferred size */
     height: auto;
     max-width: 100%;
     border-radius: 8px;
-    /* Optional: adds rounded corners */
+
 }
 
 .employee-flex figcaption {
